@@ -28,7 +28,3 @@ func getJoke() {
 	joke := data["joke"]
 	fmt.Println(joke)
 }
-
-// func getPokemon() {
-
-// }
