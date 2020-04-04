@@ -9,6 +9,10 @@ import (
 )
 
 func main() {
+	getJoke()
+}
+
+func getJoke() {
 	client := &http.Client{}
 	req, _ := http.NewRequest("GET", "https://icanhazdadjoke.com/", nil)
 	req.Header.Add("Accept", "application/json")
@@ -24,3 +28,7 @@ func main() {
 	joke := data["joke"]
 	fmt.Println(joke)
 }
+
+// func getPokemon() {
+
+// }
