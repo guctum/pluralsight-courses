@@ -8,7 +8,7 @@ import (
 	"os"
 )
 
-func joke() {
+func main() {
 	client := &http.Client{}
 	req, _ := http.NewRequest("GET", "https://icanhazdadjoke.com/", nil)
 	req.Header.Add("Accept", "application/json")
