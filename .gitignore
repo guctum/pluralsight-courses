@@ -4,6 +4,7 @@
 *.dll
 *.so
 *.dylib
+*.env
 /Go Projects/.idea/*
 
 # Test binary, built with `go test -c`
@@ -17,3 +18,4 @@
 .DS_Store
 Go Projects/jokes/joke
 Go Projects/web-requests/joke
+*.code-workspace
